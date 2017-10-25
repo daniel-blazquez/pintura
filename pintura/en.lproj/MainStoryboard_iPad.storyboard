@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="6uW-YW-0dA">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" id="2" customClass="PVViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="plank.jpg" id="nXN-o9-M9N">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="550"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="breve historia de la pintura española" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="IQi-Pq-gqz">
+                                <rect key="frame" x="7" y="552" width="870" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="40"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="un paseo anotado" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="AjW-TM-gbR">
+                                <rect key="frame" x="7" y="598" width="282" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Mux-ra-FcZ">
+                                <rect key="frame" x="185" y="7" width="692" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="TqX-hR-oBN">
+                                <rect key="frame" x="375" y="476" width="274" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wX4-2x-JeK">
+                                <rect key="frame" x="916" y="717" width="88" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="88x31.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="skV-BT-xoG" kind="popover" identifier="license" popoverAnchorView="wX4-2x-JeK" id="zHZ-vV-vel">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ago-xr-cgN">
+                                <rect key="frame" x="877" y="716" width="31" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="by.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="skV-BT-xoG" kind="popover" identifier="by" popoverAnchorView="Ago-xr-cgN" id="zc9-25-Sug">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <imageView contentMode="scaleToFill" image="EN.png" id="5Bx-GI-emH">
+                                <rect key="frame" x="927" y="558" width="77" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="rTo-N8-fxS" appends="YES" id="YfL-ci-OvL"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" image="help.png" id="b5u-cV-oUL">
+                                <rect key="frame" x="837" y="716" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="eu3-XW-l9K" appends="YES" id="GkU-GK-sha"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="htd-EG-ARD"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="centuryLabel" destination="TqX-hR-oBN" id="3vI-oN-D0Z"/>
+                        <outlet property="descriptionLabel" destination="Mux-ra-FcZ" id="FZe-Yb-bfn"/>
+                        <outlet property="langImage" destination="5Bx-GI-emH" id="dqq-au-TpS"/>
+                        <outlet property="mainTitleLabel" destination="IQi-Pq-gqz" id="Da7-LA-Fea"/>
+                        <outlet property="subTitleLabel" destination="AjW-TM-gbR" id="yYe-Ye-QTR"/>
+                        <segue destination="Msd-Xf-swA" kind="push" identifier="prehistoria" id="R3I-GR-yje"/>
+                        <segue destination="IJw-4J-Is6" kind="push" identifier="edadMedia" id="B4q-aI-8YM"/>
+                        <segue destination="geG-CD-v6q" kind="push" identifier="romanico" id="R2b-lR-L7A"/>
+                        <segue destination="EQS-1I-Vvr" kind="push" identifier="gotico" id="AZR-3W-Ec8"/>
+                        <segue destination="fGg-0W-kAJ" kind="push" identifier="renacimiento" id="Whr-OF-PMn"/>
+                        <segue destination="2eC-6I-m11" kind="push" identifier="manierismo" id="dOE-hD-Ueu"/>
+                        <segue destination="Wjo-gC-Yrm" kind="push" identifier="barroco" id="YyB-dN-LFR"/>
+                        <segue destination="tbw-ed-6iI" kind="push" identifier="goya" id="l3K-Qb-0fL"/>
+                        <segue destination="FM7-MH-k7T" kind="push" identifier="roman" id="twP-FE-d29"/>
+                        <segue destination="Kc4-BI-muL" kind="push" identifier="veinte" id="4LG-vF-Jc1"/>
+                        <segue destination="pWx-xY-21l" kind="push" identifier="picasso" id="Ycu-1V-66D"/>
+                        <segue destination="MdY-Kz-ryf" kind="push" identifier="actual" id="Avf-N0-Hfo"/>
+                        <segue destination="AQa-th-zNP" kind="push" identifier="pintorpirado" id="f6l-69-KWf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ZIr-qb-PqG">
+                    <connections>
+                        <action selector="langLabelTap:" destination="2" id="Qp7-JZ-7ht"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="rTo-N8-fxS">
+                    <connections>
+                        <action selector="langLabelTap:" destination="2" id="cCK-Fo-oWP"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="eu3-XW-l9K">
+                    <connections>
+                        <action selector="helpIconTap:" destination="2" id="78F-rM-TdH"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-814" y="-1315"/>
+        </scene>
+        <!--Veinte View Controller-->
+        <scene sceneID="WHR-Lz-ec7">
+            <objects>
+                <viewController id="Kc4-BI-muL" customClass="PVVeinteViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lzH-PT-EVS">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Mm7-Wc-EUz">
+                                <rect key="frame" x="931" y="20" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JBs-Bx-aUc">
+                                <rect key="frame" x="931" y="20" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Skz-91-kcy"/>
+                    <connections>
+                        <segue destination="Iir-yH-Ste" kind="push" identifier="interactive" id="a48-r6-fWz"/>
+                        <segue destination="0j2-3i-PXE" kind="popover" identifier="wiki" popoverAnchorView="JBs-Bx-aUc" id="dxJ-A5-fYe">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MbQ-T9-xkF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1569" y="-3807"/>
+        </scene>
+        <!--Barroco View Controller-->
+        <scene sceneID="2Id-vu-zEb">
+            <objects>
+                <viewController id="Wjo-gC-Yrm" customClass="PVBarrocoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZDp-Y6-JXH">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="J2Z-Jx-JXB">
+                                <rect key="frame" x="931" y="20" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qkE-rZ-4KK">
+                                <rect key="frame" x="931" y="20" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9jO-yB-8R3"/>
+                    <connections>
+                        <segue destination="Iir-yH-Ste" kind="push" identifier="interactive" id="EFp-qP-6Tk"/>
+                        <segue destination="0j2-3i-PXE" kind="popover" identifier="wiki" popoverAnchorView="qkE-rZ-4KK" id="1Ch-kx-IvH">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZQk-a6-Onh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1602" y="-2888"/>
+        </scene>
+        <!--Goya View Controller-->
+        <scene sceneID="kr2-VW-5dC">
+            <objects>
+                <viewController id="tbw-ed-6iI" customClass="PVGoyaViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xbg-O3-oXt">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NVy-gt-mwC">
+                                <rect key="frame" x="931" y="20" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SZa-Un-yPx"/>
+                    <connections>
+                        <segue destination="Iir-yH-Ste" kind="push" identifier="interactive" id="jwA-Ie-tJb"/>
+                        <segue destination="0j2-3i-PXE" kind="popover" identifier="wiki" popoverAnchorView="NVy-gt-mwC" id="0Ql-Kd-imO">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Ll-MX-bnk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1612" y="1828"/>
+        </scene>
+        <!--Roman View Controller-->
+        <scene sceneID="Xmj-kN-c8H">
+            <objects>
+                <viewController id="FM7-MH-k7T" customClass="PVRomanViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Ez-kM-zDI">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ow0-Y0-slD">
+                                <rect key="frame" x="931" y="20" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Zyv-PH-0ky">
+                                <rect key="frame" x="931" y="20" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fKh-y0-blx"/>
+                    <connections>
+                        <segue destination="Iir-yH-Ste" kind="push" identifier="interactive" id="7JB-Jx-bkS"/>
+                        <segue destination="0j2-3i-PXE" kind="popover" identifier="wiki" popoverAnchorView="Zyv-PH-0ky" id="AGE-Vs-CaF">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ev-zg-0U5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4090" y="1665"/>
+        </scene>
+        <!--Actual View Controller-->
+        <scene sceneID="zGf-BK-Bvi">
+            <objects>
+                <viewController id="MdY-Kz-ryf" customClass="PVActualViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wr2-8k-chr">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hxi-PR-xDU">
+                                <rect key="frame" x="931" y="20" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kLy-ia-wJk"/>
+                    <connections>
+                        <segue destination="Iir-yH-Ste" kind="push" identifier="interactive" id="ABp-jB-9gE"/>
+                        <segue destination="0j2-3i-PXE" kind="popover" identifier="wiki" popoverAnchorView="hxi-PR-xDU" id="Iss-q6-EKb">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k78-U7-tgk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4058" y="-208"/>
+        </scene>
+        <!--Picasso View Controller-->
+        <scene sceneID="CKp-CL-WBO">
+            <objects>
+                <viewController id="pWx-xY-21l" customClass="PVPicassoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qnk-GA-I7v">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jbJ-VN-GEW">
+                                <rect key="frame" x="931" y="20" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="a2K-wG-HLm"/>
+                    <connections>
+                        <segue destination="Iir-yH-Ste" kind="push" identifier="interactive" id="sph-ds-8wM"/>
+                        <segue destination="0j2-3i-PXE" kind="popover" identifier="wiki" popoverAnchorView="jbJ-VN-GEW" id="BiM-3l-Qch">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eeJ-HD-NjU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1594" y="-1911"/>
+        </scene>
+        <!--Manierismo View Controller-->
+        <scene sceneID="17U-ZH-TYc">
+            <objects>
+                <viewController id="2eC-6I-m11" customClass="PVManierismoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u0c-2Y-WWU">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="P4t-Hk-D3j">
+                                <rect key="frame" x="931" y="20" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ziz-Dm-Ar5"/>
+                    <connections>
+                        <segue destination="Iir-yH-Ste" kind="push" identifier="interactive" id="BFf-R5-Kl6"/>
+                        <segue destination="0j2-3i-PXE" kind="popover" identifier="wiki" popoverAnchorView="P4t-Hk-D3j" id="aTo-yk-1Wo">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sy3-Z3-j8J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4076" y="775"/>
+        </scene>
+        <!--License Controller-->
+        <scene sceneID="CIQ-Ni-0WL">
+            <objects>
+                <viewController id="skV-BT-xoG" customClass="PVLicenseController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F0b-pT-9Ef">
+                        <rect key="frame" x="0.0" y="44" width="750" height="724"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" id="Dx4-Rd-Doj">
+                                <rect key="frame" x="0.0" y="-22" width="750" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="webView" destination="Dx4-Rd-Doj" id="YPi-XB-OnK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S5b-HC-f43" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58" y="953"/>
+        </scene>
+        <!--Wiki Controller-->
+        <scene sceneID="eC0-e9-6dU">
+            <objects>
+                <viewController id="0j2-3i-PXE" customClass="PVWikiController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y3f-9R-tO2">
+                        <rect key="frame" x="0.0" y="44" width="500" height="750"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" id="6OU-kI-Atd">
+                                <rect key="frame" x="0.0" y="0.0" width="500" height="750"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="wikiWeb" destination="6OU-kI-Atd" id="Wbo-q3-DX9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kXr-FC-auA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5817" y="1731"/>
+        </scene>
+        <!--Romanico View Controller-->
+        <scene sceneID="b0B-Cb-NOY">
+            <objects>
+                <viewController id="geG-CD-v6q" customClass="PVRomanicoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pTm-oX-W2b">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EEV-po-CqC">
+                                <rect key="frame" x="931" y="20" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yAf-TL-M3v"/>
+                    <connections>
+                        <segue destination="Iir-yH-Ste" kind="push" identifier="interactive" id="mqm-tN-Vfg"/>
+                        <segue destination="0j2-3i-PXE" kind="popover" identifier="wiki" popoverAnchorView="EEV-po-CqC" id="06v-Fq-K6b">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MBZ-0e-GCQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1588" y="-39"/>
+        </scene>
+        <!--Gotico View Controller-->
+        <scene sceneID="bUx-dI-sms">
+            <objects>
+                <viewController id="EQS-1I-Vvr" customClass="PVGoticoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KCV-HD-A06">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rtF-Dj-FgM">
+                                <rect key="frame" x="931" y="20" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Lnb-pV-R29"/>
+                    <connections>
+                        <segue destination="Iir-yH-Ste" kind="push" identifier="interactive" id="PgV-aV-hcx"/>
+                        <segue destination="0j2-3i-PXE" kind="popover" identifier="wiki" popoverAnchorView="rtF-Dj-FgM" id="jAH-c3-L6E">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A6j-eE-1sX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4058" y="-1159"/>
+        </scene>
+        <!--Renacimiento View Controller-->
+        <scene sceneID="SSl-4D-sZM">
+            <objects>
+                <viewController id="fGg-0W-kAJ" customClass="PVRenacimientoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZnK-Xv-bcO">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2mW-BJ-r75">
+                                <rect key="frame" x="931" y="20" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7df-Ke-FZj"/>
+                    <connections>
+                        <segue destination="Iir-yH-Ste" kind="push" identifier="interactive" id="Dfc-hD-P0N"/>
+                        <segue destination="0j2-3i-PXE" kind="popover" identifier="wiki" popoverAnchorView="2mW-BJ-r75" id="fhy-ri-dzB">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kTZ-rd-gqZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1594" y="-951"/>
+        </scene>
+        <!--Interactive Image View Controller-->
+        <scene sceneID="cBo-iu-Y5L">
+            <objects>
+                <viewController id="Iir-yH-Ste" customClass="PVInteractiveImageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vHi-eT-L1a">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Z7B-ep-c8j"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YIh-ve-JRd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8691" y="-1159"/>
+        </scene>
+        <!--Pintor Pirado View Controller - Pintor Pirado-->
+        <scene sceneID="Lj7-XG-Lu8">
+            <objects>
+                <viewController title="Pintor Pirado" modalTransitionStyle="partialCurl" id="AQa-th-zNP" customClass="PVPintorPiradoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SzE-Vk-gD4">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pintor Pirado" id="gSd-v6-qBa">
+                        <barButtonItem key="backBarButtonItem" title="Volver" id="iw8-Ic-baS"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackTranslucent" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ver-HX-mW9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1490" y="962"/>
+        </scene>
+        <!--Edad Media View Controller-->
+        <scene sceneID="q3h-tW-6gt">
+            <objects>
+                <viewController id="IJw-4J-Is6" customClass="PVEdadMediaViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Dv-JA-xyX">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SHI-ie-fDi">
+                                <rect key="frame" x="931" y="11" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lMg-vj-Wfb"/>
+                    <connections>
+                        <segue destination="Iir-yH-Ste" kind="push" identifier="interactive" id="1Rs-cT-SZa"/>
+                        <segue destination="0j2-3i-PXE" kind="popover" identifier="wiki" popoverAnchorView="SHI-ie-fDi" id="ZAq-aF-Is9">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KeB-Ry-CZz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1628" y="2729"/>
+        </scene>
+        <!--Prehistoria View Controller-->
+        <scene sceneID="Dsa-7y-PmZ">
+            <objects>
+                <viewController id="Msd-Xf-swA" customClass="PVPrehistoriaViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L9t-DD-14Y">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pVJ-Za-jwB">
+                                <rect key="frame" x="932" y="20" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0j2-3i-PXE" kind="popover" identifier="wiki" popoverAnchorView="pVJ-Za-jwB" id="PmR-2b-QNm">
+                                        <popoverArrowDirection key="popoverArrowDirection"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Tgn-kL-frT">
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Item" id="asD-dj-EIA"/>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="Iir-yH-Ste" kind="push" identifier="interactive" id="yIj-Iy-FXw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gZ6-T9-FgB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1628" y="903"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9RC-7C-1F3">
+            <objects>
+                <navigationController wantsFullScreenLayout="YES" id="6uW-YW-0dA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" barStyle="blackOpaque" id="zOZ-JK-oCk">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="nPu-a8-LQi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tOd-U9-WiA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1923" y="-1309"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="88x31.png" width="88" height="31"/>
+        <image name="EN.png" width="200" height="200"/>
+        <image name="by.png" width="64" height="64"/>
+        <image name="help.png" width="32" height="32"/>
+        <image name="plank.jpg" width="1024" height="550"/>
+    </resources>
+    <classes>
+        <class className="GAITrackedViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/GAITrackedViewController.h"/>
+        </class>
+        <class className="PVActualViewController" superclassName="PVSectionController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVActualViewController.h"/>
+        </class>
+        <class className="PVBarrocoViewController" superclassName="PVSectionController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVBarrocoViewController.h"/>
+        </class>
+        <class className="PVEdadMediaViewController" superclassName="PVSectionController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVEdadMediaViewController.h"/>
+        </class>
+        <class className="PVGoticoViewController" superclassName="PVSectionController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVGoticoViewController.h"/>
+        </class>
+        <class className="PVGoyaViewController" superclassName="PVSectionController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVGoyaViewController.h"/>
+        </class>
+        <class className="PVInteractiveImageViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVInteractiveImageViewController.h"/>
+        </class>
+        <class className="PVLicenseController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVLicenseController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+        <class className="PVManierismoViewController" superclassName="PVSectionController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVManierismoViewController.h"/>
+        </class>
+        <class className="PVPicassoViewController" superclassName="PVSectionController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVPicassoViewController.h"/>
+        </class>
+        <class className="PVPintorPiradoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVPintorPiradoViewController.h"/>
+        </class>
+        <class className="PVPrehistoriaViewController" superclassName="PVSectionController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVPrehistoriaViewController.h"/>
+        </class>
+        <class className="PVRenacimientoViewController" superclassName="PVSectionController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVRenacimientoViewController.h"/>
+        </class>
+        <class className="PVRomanViewController" superclassName="PVSectionController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVRomanViewController.h"/>
+        </class>
+        <class className="PVRomanicoViewController" superclassName="PVSectionController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVRomanicoViewController.h"/>
+        </class>
+        <class className="PVSectionController" superclassName="GAITrackedViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVSectionController.h"/>
+            <relationships>
+                <relationship kind="action" name="handlePan:" candidateClass="UIPanGestureRecognizer"/>
+                <relationship kind="action" name="pushWikiController:" candidateClass="PVUIButton"/>
+                <relationship kind="action" name="toggleTimeline:"/>
+            </relationships>
+        </class>
+        <class className="PVVeinteViewController" superclassName="PVSectionController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVVeinteViewController.h"/>
+        </class>
+        <class className="PVViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="helpIconTap:"/>
+                <relationship kind="action" name="langLabelTap:"/>
+                <relationship kind="outlet" name="centuryLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="descriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="langImage" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="mainTitleLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="subTitleLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="PVWikiController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PVWikiController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="wikiWeb" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <nil key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="zHZ-vV-vel"/>
+        <segue reference="Iss-q6-EKb"/>
+        <segue reference="ABp-jB-9gE"/>
+    </inferredMetricsTieBreakers>
+</document>

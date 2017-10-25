@@ -1,0 +1,25 @@
+html {
+	font-family:'OFL Sorts Mill Goudy TT','Bookman Old Style',serif;
+	color:#333;
+	font-size:110%;
+}
+
+p {
+line-height:1.8em;
+
+}
+
+p.first:first-letter {
+  font-size:350%; 
+  margin:8px 0 -5px 0; 
+  padding:0 .1em 0 0; 
+  height:.7em; 
+  line-height:.85em; 
+  float:left;
+  color:#8C8273; 
+}
+
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; /* Disable selection/Copy of UIWebView */
+}

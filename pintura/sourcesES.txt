@@ -1,0 +1,89 @@
+<html>
+<head>
+<STYLE TYPE="text/css">
+<!--
+BODY
+   {
+   color:white;
+   background-color:black;
+   font-family:sans-serif;
+   }
+A:link{color:white}
+A:visited{color:yellow}
+-->
+</STYLE>
+</head
+<body><h1>Reconocimiento y atribuciones del material fotográfico</h1>
+<p><i>(pronto con enlaces al autor y referencias adicionales)</i></p>
+
+<p><b>Prehistoria</b><br>
+Techo de Altamira - José Manuel Benito<br>
+Bisonte de Altamira - Ramessos (Wikipedia contrib.)<br>
+Danza de Cogul - Vicens (Wikipedia contrib.)<br>
+
+
+</p><p><b>Edad Media</b><br>
+Vista general de Avila - hermenpaca (flickr contrib.)<br>
+Vista de la mezquita de Córdoba - Jim Anzalone (flickr contrib.)<br>
+
+</p><p><b>Románico</b><br>
+Colegiata de San Isidoro de León - Jaume (Wikipedia contrib.)<br>
+
+</p><p><b>Gótico</b><br>
+Frontal de Avià - Jaume Meneses<br>
+Santa Ana enseñando a la Virgen a leer - Arnau Bassa (Wikipedia contrib.)<br>
+San Pedro salvado de las aguas - The Yorck Project: 10.000 Meisterwerke der Malerei<br>
+
+</p><p><b>Renacimiento</b><br>
+Santa Catalina de Alejandría - Escarlati, Museo del Prado<br>
+El nacimiento de la Virgen - Web Gallery of Art<br>
+Auto de fe presidido por Santo Domingo de Guzmán - Museo del Prado<br>
+Virgen de la Leche - The Yorck Project: 10.000 Meisterwerke der Malerei<br>
+Retrato de la Infanta Isabel Clara Eugenia - The Yorck Project: 10.000 Meisterwerke der Malerei<br>
+El nacimiento de la Virgen - Web Gallery of Art<br>
+Nacimiento de la Virgen - www.pintura.aut.org<br>
+
+</p><p><b>Manierismo</b><br>
+El caballero de la mano en el pecho - Museo del Prado, The Prado in Google Earth<br>
+El Entierro del Conde de Orgaz - Museo del Prado, The Prado in Google Earth<br>
+Retablo mayor Santo Domingo el Antiguo - Web Gallery of Art<br>
+
+</p><p><b>Barroco</b><br>
+La Fragua de Vulcano - Museo del Prado<br>
+Venus del espejo - EnrikeCdC - National Gallery<br>
+Las Meninas - Museo del Prado, The Prado in Google Earth<br>
+San Hugo en el Refectorio - Museo de Bellas Artes de Sevilla<br>
+Santa Casilda - Museo Thyssen-Bornemisza, Madrid<br>
+
+</p><p><b>Diego de Velázquez</b><br>
+Vieja friendo huevos - Google Art Project<br>
+El Triunfo de Baco - Erzalibillas, Museo del Prado <br>
+La Fragua de Vulcano - Erzalibillas, Museo del Prado <br>
+La rendición de Breda o Las lanzas - Erzalibillas, Museo del Prado <br>
+Venus del espejo - Museo del Prado<br>
+Las Meninas - Museo del Prado, The Prado in Google Earth<br>
+
+</p><p><b>Goya</b><br>
+San Bernardino, Viejos Comiendo Sopa - Erik E. Weems (eeweems.com)<br>
+La Piedad - Angeles Garcia (El Pais)<br>
+El Milagro de San Antonio - The Yorck Project: 10.000 Meisterwerke der Malerei<br>
+La Vendimia - Lourdes Cardenal<br>
+Se Quebro el Cantaro -  Arno Schmidt Reference Library<br>
+La Carga de los Mamelucos, Los Fusilamientos del Tres de Mayo, La Maja Vestida, La Maja Desnuda, La Familia de Carlos V, La Lechera de Burdeos - Museo del Prado<br>
+
+</p><p><b>Siglo XX</b><br>
+Paseo a orillas del mar - Sorolla Museum<br>
+El Pescador - Sotheby's<br>
+Niños en la playa - Museo del Prado<br>
+Au Moulin de la Galette - Register at Museus en línia<br>
+Retrato de la condesa Mathieu de Noailles - Archivo fotográfico - Colección del Museo de Bellas Artes de Bilbao<br>
+El guitarrista ciego - Chicago Art Institute<br>
+Las señoritas de Avignon -  Museo de Arte Moderno de Nueva York<br>
+El Guernica - Museo Nacional Centro de Arte Reina Sofía<br>
+Mujer con Mandolina - Museo Thyssen-Bornemisza<br>
+Tres mujeres en la fuente - The Museum Of Modern Art of New York<br>
+La persistencia de la memoir - The Museum of Modern Art, New York<br>
+
+</p><p><b>Otros</b><br>
+Guggenheim New York / Pintor Pirado - Alex E. Proimos</p>
+</body></html>
